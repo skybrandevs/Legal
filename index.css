@@ -1,0 +1,454 @@
+/** css starts here **/
+
+
+.main-bac{
+
+background-image: url('assests/background2.png');
+background-size: cover;
+background-repeat: no-repeat;
+min-height:90vh;
+background-attachment: fixed;
+}
+
+
+.nav-bac{
+
+    background-color: white !important;
+    width: 100%;
+    min-height: 0vh;
+
+
+}
+
+
+.header-main{
+
+    font-family: 'Raleway', sans-serif;
+    font-size: 80px;
+    color: white;
+    font-style: normal;
+    text-align:center;
+    margin-top:200px;
+
+
+}
+
+
+.header-outro{
+
+    font-family: 'Raleway', sans-serif;
+    color:white;
+    margin-top: 50px;
+
+
+}
+
+.logo{
+
+width: 50px;
+margin-top: 35px;
+float: left;
+
+}
+
+
+.card-fancy{
+
+
+background-color: rgba(255, 255, 255, 0.959);
+width: 65% !important;
+border: transparent;
+
+min-height: 45vh;
+float:right;
+margin-top:125px;
+box-shadow: 1.5px 1.5px rgba(74, 72, 187, 0.096);
+
+}
+
+
+.request-header{
+    font-family: 'Muli', sans-serif;
+    color: rgba(0, 0, 0, 0.76);
+    font-weight:400;
+    font-size: 23px;
+    text-align: center;
+    font-weight: 700;
+    padding:50px 30px 8px 30px;
+
+}
+
+
+.request-body{
+
+    font-family: 'Muli', sans-serif;
+    text-align: center;
+    padding:8px 50px 8px 50px;
+    color: #333333;
+    font-size: 16px;
+    font-weight: 400;
+
+}
+
+
+.arrow{
+
+    width:20px;
+
+}
+
+.number{
+
+    display: block;
+    margin-left: auto;
+    margin-right: auto;
+    width:60%;
+    height:48px;
+   border-left: transparent;
+   border-right: transparent;
+   border-top: transparent;
+background-color: transparent !important;
+border-bottom:#E0115F 2px solid;
+outline: none !important;
+padding: 15px 15px 15px 15px;
+
+}
+
+
+input{
+
+font-size: 12px !important;
+font-family: 'Raleway', sans-serif !important;
+color: black;
+
+}
+
+
+.button-request{
+
+display: block;
+margin-left: auto;
+margin-right: auto;
+width:60%;
+height:48px;
+background-color: transparent !important;
+border: 1px solid black;
+outline: none !important;
+font-family: 'Muli', sans-serif !important;
+font-size: 13px !important; 
+
+
+}
+
+
+.button-request:hover{
+
+    display: block;
+    margin-left: auto;
+    margin-right: auto;
+    width:60%;
+    height:48px;
+    background-color: black !important;
+    border: transparent !important;
+    outline: none !important;
+    font-family: 'Muli', sans-serif !important;
+    font-size: 13px !important; 
+    color: white;
+    
+    
+    }
+
+
+.policy-text{
+
+    font-family: 'Muli', sans-serif !important;
+    font-size: 9.5px;
+    padding: 25px 25px 25px 50px;
+    text-align:left;
+color: #666666;
+}
+
+
+.profile-brief-header{
+
+    font-family: 'Raleway', sans-serif !important;
+    font-size:33.5px;
+    margin-top: 200px;
+letter-spacing: 1px;
+color:#333333;
+text-align: left;
+
+}
+
+
+.profile-brief-sub-header{
+    font-family: 'Muli', sans-serif !important;
+    font-size: 10.5px;
+    font-weight: bolder;
+    color: #666666;
+    margin-top: 23px;
+    margin-bottom: 100px;
+
+}
+
+.card-img{
+
+width: 300px;
+box-shadow: 1.5px 1.5px rgba(74, 72, 187, 0.096);
+
+}
+
+
+.body-profile{
+
+
+    font-family: 'Muli', sans-serif !important;
+    color: #666666;
+     line-height: 25px;
+     text-align: left;
+     font-size:14px;
+     margin-top: 0px;
+    
+}
+
+
+.learn-btn{
+
+    width:40%;
+    height:55px;
+    background-color: black;
+    border: transparent;
+    color: white;
+    font-family: 'Muli', sans-serif !important;
+    font-size:14px;
+    margin-top: 50px;
+    margin-bottom: 50px;
+outline: none;
+margin-bottom: 150px;
+}
+
+
+.learn-btn:hover{
+
+    width:40%;
+    height:55px;
+    background-color:transparent;
+border: 1px solid black;
+    color:black;
+    font-family: 'Muli', sans-serif !important;
+    font-size:14px;
+    margin-top: 50px;
+    margin-bottom: 50px;
+outline: none;
+margin-bottom: 150px;
+
+}
+
+
+.bac-whitesmoke{
+
+
+background-color: whitesmoke;
+width: 100% !important;
+min-height: 70vh;
+
+
+}
+
+
+.legal-header{
+
+color: #333333;
+font-family: 'Raleway', sans-serif !important;
+margin-top: 150px;
+font-size: 30px;
+letter-spacing: 1px;
+
+}
+
+.legal-intro{
+
+    font-family: 'Muli', sans-serif !important;
+    color: #666666;
+    margin-top: 50px;
+line-height:28px;
+margin-bottom: 100px;
+
+
+}
+
+
+.fancy-card-services{
+
+background-color: white;
+width: 80%;
+min-height: 40vh;
+border: transparent;
+margin-bottom: 150px;
+float: right;
+box-shadow: 1.5px 1.5px rgba(74, 72, 187, 0.096);
+
+}
+
+
+.fancy-card-services:hover{
+
+    background-color: black !important;
+    width: 80%;
+    min-height: 40vh;
+    border: transparent;
+    box-shadow: 1.5px 1.5px rgba(74, 72, 187, 0.096);
+    margin-bottom: 150px;
+    float: right;
+    color: white !important;
+}
+
+
+.card-header-fancy{
+
+    font-family: 'Muli', sans-serif !important;
+    font-size: 20px;
+    padding: 20px 20px 20px 25px;
+
+}
+
+
+
+
+.card-body-fancy{
+
+
+    font-family: 'Muli', sans-serif !important;
+    padding: 20px 20px 20px 25px;
+    font-size: 13.5px;
+    color: #666666;
+
+}
+
+.rq-link{
+
+    font-family: 'Muli', sans-serif !important;
+    color: #E0115F;
+    font-size: 12.5px;
+    padding: 20px 20px 20px 25px;
+
+
+}
+
+.card-img-law{
+
+width: 55px;
+margin: 20px 20px 20px 25px;
+
+}
+
+.card-img-law-2{
+
+    width: 38px;
+    margin: 20px 20px 20px 25px;
+    
+    }
+
+
+   .rq-link:hover{
+
+color: white !important;
+text-decoration: none !important;
+
+
+    }
+
+
+
+html{
+
+    scroll-behavior: smooth;
+  }
+
+
+  .arrow-down{
+
+    width: 55px;
+    float: right;
+    margin-top: 30px;
+
+
+  }
+
+
+  .font-menu{
+
+color: white !important;
+font-family: 'Muli', sans-serif !important;
+text-transform: uppercase;
+margin-top: 25px;
+text-align: right;
+text-decoration: none !important;
+
+}
+
+
+.font-menu:hover{
+
+    color: #E0115F !important;
+    font-family: 'Muli', sans-serif !important;
+    text-transform: uppercase;
+    margin-top: 25px;
+    text-align: right;
+    text-decoration: none !important;
+    transition: transform .2s; /* Animation */
+transform: scale(1.1);
+    
+    }
+    
+
+    .copy{
+
+        font-family: 'Muli', sans-serif !important;
+        color: white;
+        font-size: 9.5px;
+        margin-top: 350px;
+
+    }
+      
+
+
+    .client-header{
+
+      
+        color: #333333;
+        font-size: 30px;
+        font-family: 'Raleway', sans-serif;
+font-weight: 500;
+letter-spacing: 1px;
+text-align: center;
+margin-top: 150px;
+
+
+    }
+    
+
+
+
+    .client-body{
+
+text-align:center !important;
+font-family: 'Muli', sans-serif !important;
+    color: #666666;
+    margin-top: 30px;
+line-height:28px;
+margin-bottom: 100px;
+
+    }
+
+
+    .clients-logo{
+
+display: block;
+margin-left: auto;
+margin-right: auto;
+margin-top: 70px;
+margin-bottom: 150px;
+
+    }
+  

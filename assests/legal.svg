@@ -1,0 +1,8 @@
+<svg width="24" height="24" viewBox="0 0 24 24" fill="none" xmlns="http://www.w3.org/2000/svg">
+  <title>Diamond (outlined)</title>
+  <g transform="matrix(
+          1 0
+          0 1
+          0.5 0.5
+        )"><path fill-rule="nonzero" clip-rule="nonzero" d="M 11.5 4.199999809265137 L 18.800003051757812 11.5 L 11.5 18.799999237060547 L 4.200000762939453 11.5 L 11.5 4.199999809265137 Z M 11.5 0 L 0 11.5 L 11.5 23 L 23 11.5 L 11.5 0 Z" fill="currentColor"/></g>
+</svg>

@@ -68,10 +68,10 @@ float: left;
 background-color: rgba(255, 255, 255, 0.959);
 width: 65% !important;
 border: transparent;
-
 min-height: 45vh;
 float:right;
 margin-top:125px;
+margin-bottom: 130px;
 box-shadow: 1.5px 1.5px rgba(74, 72, 187, 0.096);
 
 }
@@ -2211,3 +2211,52 @@ box-shadow: 1.5px 1.5px rgba(74, 72, 187, 0.096);
 
 
 /**end**/
+
+
+.map-module{
+
+    font-family: 'Raleway', sans-serif;
+color: white;
+text-align: center;
+margin-top:150px;
+
+
+}
+
+.bac-black{
+
+background-color:black !important ;
+width: 100% !important;
+min-height: 50vh;
+
+}
+
+.contact-header{
+
+    font-family: 'Raleway', sans-serif;
+    color: #333333;
+    margin-top: 150px;
+    font-weight: 700;
+    margin-bottom:50px;
+
+}
+
+
+.icon-contact{
+
+width: 35px;
+margin-right:15px;
+
+
+}
+
+.contact-address{
+
+    font-family: 'Muli', sans-serif;
+    color: #666666;
+    margin-bottom:30px;
+  
+
+
+
+}

@@ -109,16 +109,14 @@
 
 <div class="bac-black">
 
-<div class="container">
+
 
 <div class="row">
 
 <div class="col-sm-12">
 
-<h1 class="map-module">Map Module</h1>
+    <div id="map"></div>
 
-
-</div>
 
 
 </div>
@@ -285,6 +283,38 @@ that my information will be used in accordance with our <a href="privacy.html">P
     <script src="https://code.jquery.com/jquery-3.4.1.slim.min.js" integrity="sha384-J6qa4849blE2+poT4WnyKhv5vZF5SrPo0iEjwBvKU7imGFAV0wwj1yYfoRSJoZ+n" crossorigin="anonymous"></script>
     <script src="https://cdn.jsdelivr.net/npm/popper.js@1.16.0/dist/umd/popper.min.js" integrity="sha384-Q6E9RHvbIyZFJoft+2mJbHaEWldlvI9IOYy5n3zV9zzTtmI3UksdQRVvoxMfooAo" crossorigin="anonymous"></script>
     <script src="https://stackpath.bootstrapcdn.com/bootstrap/4.4.1/js/bootstrap.min.js" integrity="sha384-wfSDF2E50Y2D1uUdj0O3uMBJnjuUD4Ih7YwaYd1iqfktj0Uod8GCExl3Og8ifwB6" crossorigin="anonymous"></script>
+
+
+
+
+
+    <script>
+        // Initialize and add the map
+        function initMap() {
+          // The location of Uluru
+          var lagos = {lat: 6.431022 , lng:3.435586};
+          // The map, centered at Uluru
+          var map = new google.maps.Map(
+              document.getElementById('map'), {zoom: 18 , center: lagos});
+          // The marker, positioned at Uluru
+          var marker = new google.maps.Marker({position: lagos, map: map});
+        }
+            </script>
+            <!--Load the API from the specified URL
+            * The async attribute allows the browser to render the page while the API loads
+            * The key parameter will contain your own API key (which is not needed for this tutorial)
+            * The callback parameter executes the initMap() function
+            -->
+            <script async defer
+            src="https://maps.googleapis.com/maps/api/js?key=AIzaSyCtm3GaJtbEm9oCXqVRB4Ws4vrqBiRiqLg&callback=initMap">
+            </script>
+
+
+
+
+
+
+
   </body>
 </html>
 

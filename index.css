@@ -2276,3 +2276,10 @@ margin-bottom:-80px !important;
 margin-top:10px;
 
 }
+
+
+#map {
+    height: 450px;  /* The height is 400 pixels */
+    width: 100%;  /* The width is the width of the web page */
+    background-color: black !important;
+   }

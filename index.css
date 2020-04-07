@@ -15,7 +15,7 @@ background-attachment: fixed;
 
     background-color: white !important;
     width: 100%;
-    height: 110px !important;
+    height: 110px ;
 
 
 }
@@ -555,6 +555,15 @@ font-family: 'Muli', sans-serif !important;
 @media only screen and (min-width: 320px) and (max-width: 480px) {
 
 
+.logos{
+
+    width: 75px !important;
+    margin-bottom:-50px !important;
+    margin-top:-10px !important;
+    
+    }
+
+
     .mins{
         font-family: 'Muli', sans-serif;
         padding-left: 90px;
@@ -649,7 +658,7 @@ font-family: 'Muli', sans-serif !important;
         
             background-color: white !important;
             width: 100%;
-            min-height: 10vh;
+            height: 70px !important;
         
         
         }
@@ -904,6 +913,14 @@ and (max-height:1440px)
  and (-webkit-max-device-pixel-ratio:2)
  {
 
+    .logos{
+
+        width: 75px !important;
+        margin-bottom:-50px !important;
+        margin-top:-10px !important;
+        
+        }
+
 
     .mins{
         font-family: 'Muli', sans-serif;
@@ -1025,14 +1042,16 @@ margin-left: 10px;
         }
         
         
+            
         .nav-bac{
         
             background-color: white !important;
             width: 100%;
-            min-height: 10vh;
+            height: 70px !important;
         
         
         }
+
 
 
         .header-main{
@@ -2376,7 +2395,7 @@ margin-right:15px;
 .logos{
 
 width: 110px;
-margin-bottom:-80px !important;
+margin-bottom:-80px;
 margin-top:10px;
 
 }

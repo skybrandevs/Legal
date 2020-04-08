@@ -397,6 +397,7 @@ html{
     width: 55px;
     float: right;
     margin-top: 30px;
+    margin-bottom: 20px;
 
 
   }
@@ -2411,7 +2412,7 @@ margin-top:10px;
 
 background-color: black;
 width: 100%;
-min-height:70vh !important;
+min-height: 150px !important;
    }
 
 
@@ -2423,9 +2424,7 @@ min-height:70vh !important;
     color: white;
     font-style: normal;
     text-align:center;
-    margin-top:100px;
-
-
+    margin-top:70px;
 }
 
 

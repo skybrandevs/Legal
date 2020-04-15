@@ -11,6 +11,119 @@ background-attachment: fixed;
 }
 
 
+.main-bac-home1{
+
+    background-image: url('skyline-commercial-buildings-lagos-nigeria-600w-505185088.webp');
+    background-size: cover;
+    background-repeat: no-repeat;
+    min-height:90vh;
+    background-attachment: fixed;
+    }
+
+
+    .main-bac-home2{
+
+        background-image: url('view-lagos-lagoon-victoria-island-600w-1219537303.webp');
+        background-size: cover;
+        background-repeat: no-repeat;
+        min-height:90vh;
+        background-attachment: fixed;
+        }
+
+        .main-bac-home3{
+
+            background-image: url('aerial-view-lagos-island-marina-600w-1064262920.webp');
+            background-size: cover;
+            background-repeat: no-repeat;
+            min-height:90vh;
+            background-attachment: fixed;
+            }
+
+
+            .main-bac-home4{
+
+                background-image: url('lagoon-lagos-lagoon-victoria-island-600w-1066980758.webp');
+                background-size: cover;
+                background-repeat: no-repeat;
+                min-height:90vh;
+                background-attachment: fixed;
+                }
+            
+
+                .main-bac-home5{
+
+                    background-image: url('wwlagos-nigeria-may-12-2019-600w-1411433657.webp');
+                    background-size: cover;
+                    background-repeat: no-repeat;
+                    min-height:90vh;
+                    background-attachment: fixed;
+                    }
+
+
+
+                .main-bac-home6{
+
+                    background-image: url('14th-august-2019-victoria-island-600w-1479476273.webp');
+                    background-size: cover;
+                    background-repeat: no-repeat;
+                    min-height:90vh;
+                    background-attachment: fixed;
+                    }
+
+
+                    .main-bac-home7{
+
+                        background-image: url('cms-church-lagos-600w-1180711228.webp');
+                        background-size: cover;
+                        background-repeat: no-repeat;
+                        min-height:90vh;
+                        background-attachment: fixed;
+                        }
+    
+                        .main-bac-home8{
+
+                            background-image: url('ig-lagos-nigeria-may-20-2017-600w-704677855.webp');
+                            background-size: cover;
+                            background-repeat: no-repeat;
+                            min-height:90vh;
+                            background-attachment: fixed;
+                            }
+
+                            .main-bac-home9{
+
+                                background-image: url('9.webp');
+                                background-size: cover;
+                                background-repeat: no-repeat;
+                                min-height:90vh;
+                                background-attachment: fixed;
+                                }
+
+
+                                .main-bac-home10{
+
+                                    background-image: url('10.webp');
+                                    background-size: cover;
+                                    background-repeat: no-repeat;
+                                    min-height:90vh;
+                                    background-attachment: fixed;
+                                    }
+            
+
+                                    .main-bac-home11{
+
+                                        background-image: url('HGPYND.jpg');
+                                        background-size: cover;
+                                        background-repeat: no-repeat;
+                                        min-height:90vh;
+                                        background-attachment: fixed;
+                                        }
+                
+        
+
+        
+    
+
+
 .nav-bac{
 
     background-color: white !important;

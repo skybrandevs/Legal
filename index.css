@@ -10,6 +10,16 @@ min-height:90vh;
 background-attachment: fixed;
 }
 
+.main-bac-new{
+
+    background-image: url('assests/law-bac-new.jpg');
+    background-size: cover;
+    background-repeat: no-repeat;
+    min-height:90vh;
+    background-attachment: fixed;
+    }
+    
+
 
 .main-bac-home1{
 

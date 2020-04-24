@@ -147,11 +147,12 @@ background-attachment: fixed;
 .header-main{
 
     font-family: 'Raleway', sans-serif;
-    font-size: 80px;
+    font-size: 55px;
     color: white;
     font-style: normal;
-    text-align:center;
+    text-align:left;
     margin-top:200px;
+    line-height:70px;
 
 
 }
@@ -162,6 +163,7 @@ background-attachment: fixed;
     font-family: 'Raleway', sans-serif;
     color:white;
     margin-top: 50px;
+    line-height:26.5px;
 }
 
 
@@ -590,6 +592,23 @@ line-height:28px;
 margin-bottom: 100px;
 
     }
+
+
+
+
+    .client-body-new{
+
+        text-align:left !important;
+        font-size:14px;
+        font-family: 'Muli', sans-serif !important;
+            color: #666666;
+            margin-top: 45px;
+        line-height:24px;
+        margin-bottom: 45px;
+        
+            }
+        
+    
 
 
     .clients-logo{

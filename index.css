@@ -147,11 +147,11 @@ background-attachment: fixed;
 .header-main{
 
     font-family: 'Raleway', sans-serif;
-    font-size: 55px;
+    font-size: 50px;
     color: white;
     font-style: normal;
     text-align:left;
-    margin-top:200px;
+    margin-top:150px;
     line-height:70px;
 
 
@@ -2554,11 +2554,21 @@ min-height: 50vh;
 
 }
 
+.lll{
+
+    width: 50px;
+
+}
+
+.ff{
+    margin-top: 15px;
+}
+
 
 .icon-contact{
 
-width: 35px;
-margin-right:15px;
+width: 33px;
+margin-right:20px;
 
 
 }
@@ -2567,7 +2577,7 @@ margin-right:15px;
 
     font-family: 'Muli', sans-serif;
     color: #666666;
-    margin-bottom:30px;
+    margin-bottom:10px;
     
 }
 
@@ -2576,7 +2586,7 @@ margin-right:15px;
 
     font-family: 'Muli', sans-serif;
     color: #666666;
-    margin-bottom:30px;
+    margin-bottom:15px;
     margin-left: 55px;
     
 }

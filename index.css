@@ -272,6 +272,7 @@ border: 1px solid black;
 outline: none !important;
 font-family: 'Muli', sans-serif !important;
 font-size: 13px !important; 
+margin-bottom: 50px;
 
 
 }
@@ -290,6 +291,7 @@ font-size: 13px !important;
     font-family: 'Muli', sans-serif !important;
     font-size: 13px !important; 
     color: white;
+    margin-bottom: 50px;
     
     
     }
@@ -727,6 +729,18 @@ margin-top: 80px;
 
 
 @media only screen and (min-width: 320px) and (max-width: 480px) {
+
+
+
+.ola{
+    font-family: 'Muli', sans-serif;
+    color: black !important;
+    text-decoration: none !important;
+    font-weight: bolder;
+    font-size: 14.5px !important;
+    margin-top:25px !important;
+
+}
 
 
 .logos{
@@ -2553,7 +2567,7 @@ margin-right:15px;
 
     font-family: 'Muli', sans-serif;
     color: #666666;
-    margin-bottom:13px;
+    margin-bottom:30px;
     
 }
 
@@ -2712,5 +2726,22 @@ text-decoration: none !important;
 
 margin-top: 50px;
 margin-bottom: 150px;
+
+}
+
+
+.ola{
+    font-family: 'Muli', sans-serif;
+    color: black !important;
+    text-decoration: none !important;
+    font-weight: bolder;
+    font-size: 23.5px;
+    margin-top:40px;
+
+}
+
+a:hover{
+
+    text-decoration: none !important;
 
 }

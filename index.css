@@ -361,7 +361,7 @@ margin-top: 50px;
      text-align: left;
      padding-left: 100px;
      font-size:14px;
-     margin-top: 80px;
+     margin-top:25px;
      
     
 }
@@ -426,7 +426,7 @@ letter-spacing: 1px;
 .legal-intro{
 
     font-family: 'Muli', sans-serif !important;
-    color: #666666;
+    color:black;
     margin-top: 50px;
 line-height:28px;
 margin-bottom: 100px;
@@ -616,7 +616,7 @@ margin-top: -45px;
         text-align:left !important;
         font-size:14px;
         font-family: 'Muli', sans-serif !important;
-            color: #666666;
+            color: black;
             margin-top: 45px;
         line-height:24px;
         margin-bottom: 45px;
@@ -795,7 +795,7 @@ margin-top: 80px;
 
     .pp-1{
         font-family: 'Muli', sans-serif;
-        color: #666666;
+        color:black;
         font-size: 12.5px;
         padding: 50px 4px 50px 60px !important;
        
@@ -907,7 +907,7 @@ margin-top: 80px;
 
 
             font-family: 'Muli', sans-serif !important;
-            color: #666666;
+            color: black;
              line-height: 28px;
              text-align: left;
              padding-left: 0px;
@@ -936,7 +936,7 @@ margin-top: 80px;
 .legal-intro{
 
     font-family: 'Muli', sans-serif !important;
-    color: #666666;
+    color: black;
     margin-top: 50px;
 line-height:28px;
 margin-bottom: 100px;
@@ -1161,7 +1161,7 @@ and (max-height:1440px)
 
     .pp-1{
         font-family: 'Muli', sans-serif;
-        color: #666666;
+        color: black;
         font-size: 12.5px;
         padding: 50px 4px 50px 60px !important;
        
@@ -1301,7 +1301,7 @@ margin-left: 10px;
 
 
             font-family: 'Muli', sans-serif !important;
-            color: #666666;
+            color:black;
              line-height: 28px;
              text-align: left;
              padding-left: 0px;
@@ -1330,7 +1330,7 @@ margin-left: 10px;
 .legal-intro{
 
     font-family: 'Muli', sans-serif !important;
-    color: #666666;
+    color:black;
     margin-top: 50px;
 line-height:28px;
 margin-bottom: 100px;
@@ -1664,7 +1664,7 @@ padding-left: 20px;
 
 
         font-family: 'Muli', sans-serif !important;
-        color: #666666;
+        color:black;
          line-height: 28px;
          text-align: left;
          padding-left: 0px;
@@ -1837,7 +1837,7 @@ padding-left: 20px;
 
 
         font-family: 'Muli', sans-serif !important;
-        color: #666666;
+        color:black;
          line-height: 28px;
          text-align: left;
          padding-left: 0px;
@@ -2008,7 +2008,7 @@ padding-left: 20px;
 
 
         font-family: 'Muli', sans-serif !important;
-        color: #666666;
+        color:black;
          line-height: 28px;
          text-align: left;
          padding-left: 0px;
@@ -2254,7 +2254,7 @@ text-align: center;
 
 
     font-family: 'Muli', sans-serif !important;
-    color: #666666;
+    color:black;
      line-height: 28px;
      text-align: left;
      padding-left: 0px;
@@ -2499,7 +2499,7 @@ box-shadow: 1.5px 1.5px rgba(74, 72, 187, 0.096);
 
 .pp-1{
     font-family: 'Muli', sans-serif;
-    color: #666666;
+    color:black;
     font-size: 14.8px;
     padding: 20px 100px 20px 100px;
     line-height: 28px;
@@ -2639,11 +2639,12 @@ min-height: 150px !important;
 
        .news-header{
 
-text-align: center;
+text-align:left;
 font-family: 'Raleway', sans-serif;
 font-size:74px;
 color: white;
-margin-top:90px;
+margin-top:25px;
+margin-left:55px;
 
 
        }

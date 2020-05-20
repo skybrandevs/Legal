@@ -174,7 +174,7 @@ background-attachment:scroll;
     font-family: 'Raleway', sans-serif;
     color:white;
     margin-top: 50px;
-    margin-left: 150px;
+    margin-left: 200px;
     text-align: left;
     line-height: 28px;
 
@@ -316,7 +316,7 @@ color: #666666;
     margin-top: 85px;
 letter-spacing: 1px;
 color:#333333;
-text-align: left;
+text-align: center;
 
 }
 
@@ -604,7 +604,7 @@ margin-bottom: 100px;
 
     .mrg-oo{
 
-margin-top: -45px;
+margin-top: 18px;
 
     }
 
@@ -734,6 +734,24 @@ margin-top: 80px;
 @media only screen and (min-width: 320px) and (max-width: 480px) {
 
 
+.header-main-about{
+
+    font-family: 'Raleway', sans-serif;
+    font-size: 80px;
+    margin-left:15px !important;
+    color: white;
+    font-style: normal;
+    text-align:left !important;
+    margin-top:70px;
+}
+
+    .lll{
+
+        width: 30px !important;
+    
+    }
+
+
 
 .ola{
     font-family: 'Muli', sans-serif;
@@ -741,7 +759,8 @@ margin-top: 80px;
     text-decoration: none !important;
     font-weight: bolder;
     font-size: 14.5px !important;
-    margin-top:25px !important;
+    margin-top:10px !important;
+    margin-left:-10px !important;
 
 }
 
@@ -2622,6 +2641,7 @@ min-height: 150px !important;
 
     font-family: 'Raleway', sans-serif;
     font-size: 80px;
+    margin-left:70px;
     color: white;
     font-style: normal;
     text-align:center;
@@ -2750,7 +2770,7 @@ margin-bottom: 150px;
     text-decoration: none !important;
     font-weight: bolder;
     font-size: 23.5px;
-    margin-top:40px;
+    margin-top:20px;
     margin-left: 55px;
 
 }

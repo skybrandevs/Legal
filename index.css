@@ -138,7 +138,7 @@ background-attachment:scroll;
 
     background-color: white !important;
     width: 100%;
-    height: 110px ;
+    height: 120px ;
 
 
 }
@@ -174,7 +174,7 @@ background-attachment:scroll;
     font-family: 'Raleway', sans-serif;
     color:white;
     margin-top: 50px;
-    margin-left: 200px;
+    margin-left: 70px !important;
     text-align: left;
     line-height: 28px;
     margin-bottom: 50px;
@@ -753,6 +753,16 @@ margin-top: 30px;
 
 @media only screen and (min-width: 320px) and (max-width: 480px) {
 
+    .bg-light{
+
+        background-color: white !important;
+    
+    }
+
+
+    .shift{
+        margin-left: 0px !important;
+    }
 
 .header-main-about{
 
@@ -778,7 +788,7 @@ margin-top: 30px;
     color: black !important;
     text-decoration: none !important;
     font-weight: bolder;
-    font-size: 14.5px !important;
+    font-size: 10px !important;
     margin-top:10px !important;
     margin-left:-10px !important;
 
@@ -2661,7 +2671,7 @@ min-height: 150px !important;
 
     font-family: 'Raleway', sans-serif;
     font-size: 80px;
-    margin-left:70px;
+    margin-left:-160px !important;
     color: white;
     font-style: normal;
     text-align:center;
@@ -2683,7 +2693,7 @@ text-align:left;
 font-family: 'Raleway', sans-serif;
 font-size:74px;
 color: white;
-margin-top:25px;
+margin-top:100px;
 margin-left:55px;
 
 
@@ -2800,3 +2810,37 @@ a:hover{
     text-decoration: none !important;
 
 }
+
+
+.bg-light{
+
+    background-color: white !important;
+    
+
+}
+
+.nav-link{
+
+font-size: 16px;
+color: black !important;
+font-family: 'Raleway', sans-serif;
+font-weight: bolder;
+margin-right:30px;
+
+}
+
+
+.nav-link:hover{
+
+    font-size: 16px;
+    color: #E0115F !important;
+    font-family: 'Raleway', sans-serif;
+    font-weight: bolder;
+    margin-right:30px;
+    
+    }
+
+
+    .shift{
+        margin-left: 350px;
+    }

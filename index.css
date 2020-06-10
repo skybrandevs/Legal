@@ -381,7 +381,7 @@ margin-top: 50px;
     margin-top: 30px;
     
 outline: none;
-margin-bottom: 0px;
+margin-bottom: 50px;
 margin-left: 100px;
 }
 
@@ -398,7 +398,7 @@ border: 1px solid black;
     margin-top: 30px;
   
 outline: none;
-margin-bottom: 0px;
+margin-bottom: 50px;
 margin-left: 100px;
 
 }
@@ -659,7 +659,7 @@ width: 100px;
 
 background-color: black !important;
 width: 100%;
-min-height: 38vh;
+min-height: 28vh;
 
     }
     
@@ -675,8 +675,8 @@ border: 0.4px solid rgba(77, 77, 77, 0.76) !important;
    
     .mrg-top{
 
-margin-top: 70px;
-margin-bottom: 70px;
+margin-top: 45px;
+margin-bottom: 45px;
 
     }
 
@@ -752,6 +752,15 @@ margin-top: 30px;
 
 
 @media only screen and (min-width: 320px) and (max-width: 480px) {
+
+
+    .card-img{
+
+        box-shadow: 1.5px 1.5px rgba(74, 72, 187, 0.096);
+        margin-bottom: 0px;
+        margin-top: 50px;
+        
+        }
 
     .bg-light{
 
@@ -907,11 +916,11 @@ margin-top: 30px;
         .header-main{
 
             font-family: 'Raleway', sans-serif;
-            font-size: 60px;
+            font-size: 45px;
             color: white;
             font-style: normal;
-            text-align:center;
-            margin-top:100px;
+            text-align:left;
+            margin-top:20px;
         }
 
 
@@ -919,10 +928,12 @@ margin-top: 30px;
 
             font-family: 'Raleway', sans-serif;
             color:white;
-            margin-top: 50px;
-            padding-left: 20px;
+            margin-top: 30px;
+            font-size: 16px;
+            margin-bottom:50px;
+            padding-left: 0px;
             padding-right: 20px;
-            text-align: center;
+            text-align:left;
         }
 
 
@@ -931,11 +942,11 @@ margin-top: 30px;
 
             font-family: 'Raleway', sans-serif !important;
             font-size:38.5px;
-            margin-top: 120px;
+            margin-top: 55px;
         letter-spacing: 0px;
         color:#333333;
         text-align: left;
-        padding-left: 25px;
+        padding-left: 50px;
         
         }
         
@@ -1035,11 +1046,10 @@ padding-right: 12px;
 font-weight: 500;
 letter-spacing: 1px;
 text-align: left;
-margin-top: 150px;
-padding-left: 25px;
+margin-top: 50px;
+padding-left: 13px;
 
-
-    }
+}
     
 
 
@@ -1153,13 +1163,64 @@ and (max-height:1440px)
  and (-webkit-max-device-pixel-ratio:2)
  {
 
-    .logos{
 
-        width: 75px !important;
-        margin-bottom:-50px !important;
-        margin-top:-10px !important;
+    .card-img{
+
+        box-shadow: 1.5px 1.5px rgba(74, 72, 187, 0.096);
+        margin-bottom: 0px;
+        margin-top: 50px;
         
         }
+
+    .bg-light{
+
+        background-color: white !important;
+    
+    }
+
+
+    .shift{
+        margin-left: 0px !important;
+    }
+
+.header-main-about{
+
+    font-family: 'Raleway', sans-serif;
+    font-size: 80px;
+    margin-left:15px !important;
+    color: white;
+    font-style: normal;
+    text-align:left !important;
+    margin-top:70px;
+}
+
+    .lll{
+
+        width: 30px !important;
+    
+    }
+
+
+
+.ola{
+    font-family: 'Muli', sans-serif;
+    color: black !important;
+    text-decoration: none !important;
+    font-weight: bolder;
+    font-size: 10px !important;
+    margin-top:10px !important;
+    margin-left:-10px !important;
+
+}
+
+
+.logos{
+
+    width: 75px !important;
+    margin-bottom:-50px !important;
+    margin-top:-10px !important;
+    
+    }
 
 
     .mins{
@@ -1179,6 +1240,7 @@ and (max-height:1440px)
         
         }
 
+
     .card-fancy{
 
 
@@ -1196,21 +1258,12 @@ and (max-height:1440px)
         
         }
 
-    .header-outro-2{
-
-        font-family: 'Raleway', sans-serif;
-        color:white;
-        margin-top: 50px;
-        margin-left: 60px;
-        text-align: left;
-        line-height: 28px;
-    
-    }
+        
 
 
     .pp-1{
         font-family: 'Muli', sans-serif;
-        color: black;
+        color:black;
         font-size: 12.5px;
         padding: 50px 4px 50px 60px !important;
        
@@ -1228,61 +1281,38 @@ and (max-height:1440px)
 
     .iim{
 
-        margin-top: 20px !important;
-        width:500px !important;
-       margin-left: 50px;
+        margin-top: 30px !important;
+        width:250px !important;
+       display: block !important;
+       margin-left: auto;
+       margin-right: auto ;
        border-radius:5px;
-       
+        
         
         }
         
 
 
-.learn-btn{
 
-    width:40%;
-    height:55px;
-    background-color: black;
-    border: transparent;
-    color: white;
-    font-family: 'Muli', sans-serif !important;
-    font-size:14px;
+.header-outro-2{
+
+    font-family: 'Raleway', sans-serif;
+    color:white;
     margin-top: 50px;
-    margin-bottom: 50px;
-outline: none;
-margin-bottom: 150px;
-margin-left: 10px;
-}
-
-
-.learn-btn:hover{
-
-    width:40%;
-    height:55px;
-    background-color:transparent;
-border: 1px solid black;
-    color:black;
-    font-family: 'Muli', sans-serif !important;
-    font-size:14px;
-    margin-top: 50px;
-    margin-bottom: 50px;
-outline: none;
-margin-bottom: 150px;
-margin-left: 10px;
+    margin-left:23.5px;
+    text-align: left;
+    line-height: 25px;
 
 }
-
 
 
     .main-bac{
 
         background-image: none !important;
        background-color: #E0115F !important;
-       min-height:70vh;
         }
         
         
-            
         .nav-bac{
         
             background-color: white !important;
@@ -1293,14 +1323,13 @@ margin-left: 10px;
         }
 
 
-
         .header-main{
 
             font-family: 'Raleway', sans-serif;
-            font-size: 60px;
+            font-size: 45px;
             color: white;
             font-style: normal;
-            text-align:center;
+            text-align:left;
             margin-top:100px;
         }
 
@@ -1309,27 +1338,25 @@ margin-left: 10px;
 
             font-family: 'Raleway', sans-serif;
             color:white;
-            margin-top: 50px;
-            padding-left: 20px;
+            margin-top: 30px;
+            font-size: 16px;
+            margin-bottom:50px;
+            padding-left: 0px;
             padding-right: 20px;
-            text-align: center;
+            text-align:left;
         }
 
 
-        .profile-brief-sub-header-22{
-          display: none;
-        
-        }
 
         .profile-brief-header{
 
             font-family: 'Raleway', sans-serif !important;
             font-size:38.5px;
-            margin-top: 120px;
+            margin-top: 55px;
         letter-spacing: 0px;
         color:#333333;
         text-align: left;
-        padding-left: 25px;
+        padding-left: 50px;
         
         }
         
@@ -1350,7 +1377,7 @@ margin-left: 10px;
 
 
             font-family: 'Muli', sans-serif !important;
-            color:black;
+            color: black;
              line-height: 28px;
              text-align: left;
              padding-left: 0px;
@@ -1379,7 +1406,7 @@ margin-left: 10px;
 .legal-intro{
 
     font-family: 'Muli', sans-serif !important;
-    color:black;
+    color: black;
     margin-top: 50px;
 line-height:28px;
 margin-bottom: 100px;
@@ -1429,11 +1456,10 @@ padding-right: 12px;
 font-weight: 500;
 letter-spacing: 1px;
 text-align: left;
-margin-top: 150px;
-padding-left: 25px;
+margin-top: 50px;
+padding-left: 13px;
 
-
-    }
+}
     
 
 
@@ -1529,16 +1555,7 @@ padding-left: 25px;
                 
                     }
                 
-
-
-
-    .footer-bac{
-
-        background-color: black !important;
-        width: 100%;
-        min-height:25vh;
-        
-            }
+                
                 
 
  }
@@ -1986,6 +2003,807 @@ padding-left: 20px;
 
  /**end**/
 
+/*pixel2 */
+ @media screen and 
+ (device-width: 411px)
+ and (device-height:731px) {
+     
+    .card-img{
+
+        box-shadow: 1.5px 1.5px rgba(74, 72, 187, 0.096);
+        margin-bottom: 0px;
+        margin-top: 50px;
+        
+        }
+
+    .bg-light{
+
+        background-color: white !important;
+    
+    }
+
+
+    .shift{
+        margin-left: 0px !important;
+    }
+
+.header-main-about{
+
+    font-family: 'Raleway', sans-serif;
+    font-size: 80px;
+    margin-left:15px !important;
+    color: white;
+    font-style: normal;
+    text-align:left !important;
+    margin-top:70px;
+}
+
+    .lll{
+
+        width: 30px !important;
+    
+    }
+
+
+
+.ola{
+    font-family: 'Muli', sans-serif;
+    color: black !important;
+    text-decoration: none !important;
+    font-weight: bolder;
+    font-size: 10px !important;
+    margin-top:10px !important;
+    margin-left:-10px !important;
+
+}
+
+
+.logos{
+
+    width: 75px !important;
+    margin-bottom:-50px !important;
+    margin-top:-10px !important;
+    
+    }
+
+
+    .mins{
+        font-family: 'Muli', sans-serif;
+        padding-left: 90px;
+        color:rgb(102, 102, 102);
+        font-size: 12px;
+        margin-bottom: -100px;
+    }
+
+
+    .wraps-components{
+
+     
+        margin-top: -70px !important;
+
+        
+        }
+
+
+    .card-fancy{
+
+
+        background-color: rgba(255, 255, 255, 0.959);
+        width: 100% !important;
+        border: transparent;
+        
+        min-height: 45vh;
+        display: block !important;
+        margin-left: auto !important;
+        margin-right: auto !important;
+        margin-top:80px !important;
+        margin-bottom: 100px !important;
+        box-shadow: 1.5px 1.5px rgba(74, 72, 187, 0.096);
+        
+        }
+
+        
+
+
+    .pp-1{
+        font-family: 'Muli', sans-serif;
+        color:black;
+        font-size: 12.5px;
+        padding: 50px 4px 50px 60px !important;
+       
+    }
+
+
+.big-card{
+
+   background-color: transparent !important;
+   box-shadow: none !important;
+   width: 80% !important;
+   
+    }
+
+
+    .iim{
+
+        margin-top: 30px !important;
+        width:250px !important;
+       display: block !important;
+       margin-left: auto;
+       margin-right: auto ;
+       border-radius:5px;
+        
+        
+        }
+        
+
+
+
+.header-outro-2{
+
+    font-family: 'Raleway', sans-serif;
+    color:white;
+    margin-top: 50px;
+    margin-left:23.5px;
+    text-align: left;
+    line-height: 25px;
+
+}
+
+
+    .main-bac{
+
+        background-image: none !important;
+       background-color: #E0115F !important;
+        }
+        
+        
+        .nav-bac{
+        
+            background-color: white !important;
+            width: 100%;
+            height: 70px !important;
+        
+        
+        }
+
+
+        .header-main{
+
+            font-family: 'Raleway', sans-serif;
+            font-size: 45px;
+            color: white;
+            font-style: normal;
+            text-align:left;
+            margin-top:53px;
+        }
+
+
+        .header-outro{
+
+            font-family: 'Raleway', sans-serif;
+            color:white;
+            margin-top: 30px;
+            font-size: 16px;
+            margin-bottom:50px;
+            padding-left: 0px;
+            padding-right: 20px;
+            text-align:left;
+        }
+
+
+
+        .profile-brief-header{
+
+            font-family: 'Raleway', sans-serif !important;
+            font-size:38.5px;
+            margin-top: 55px;
+        letter-spacing: 0px;
+        color:#333333;
+        text-align: left;
+        padding-left: 50px;
+        
+        }
+        
+        
+        .profile-brief-sub-header{
+            font-family: 'Muli', sans-serif !important;
+            font-size: 13px;
+            font-weight: 700;
+            color: #666666;
+            margin-top: 23px;
+            margin-bottom: 80px;
+            padding-left: 25px;
+        
+        }
+
+
+        .body-profile{
+
+
+            font-family: 'Muli', sans-serif !important;
+            color: black;
+             line-height: 28px;
+             text-align: left;
+             padding-left: 0px;
+             font-size:10.5px;
+             margin-top: 3px;
+             padding-left: 10px;
+             padding-right: 10px;
+            
+        }
+
+
+
+.legal-header{
+
+    color: #333333;
+    font-family: 'Raleway', sans-serif !important;
+    margin-top: 110px;
+    font-size: 30px;
+    letter-spacing: 0px;
+    padding-left: 25px;
+    
+    }
+
+
+
+.legal-intro{
+
+    font-family: 'Muli', sans-serif !important;
+    color: black;
+    margin-top: 50px;
+line-height:28px;
+margin-bottom: 100px;
+padding-left: 25px;
+padding-right: 12px;
+
+}
+
+
+
+
+.fancy-card-services{
+
+    background-color: white;
+    width: 90%;
+    min-height: 31.3vh;
+    border: transparent;
+    margin-bottom: 90px;
+    float: left;
+    box-shadow: 1.5px 1.5px rgba(74, 72, 187, 0.096);
+    margin-left: 20px;
+    
+    }
+    
+    
+    .fancy-card-services:hover{
+    
+        background-color: black !important;
+        width: 90%;
+        min-height: 31.3vh;
+        border: transparent;
+        box-shadow: 1.5px 1.5px rgba(74, 72, 187, 0.096);
+        margin-bottom: 90px;
+        float: left;
+        color: white !important;
+        margin-left: 20px;
+    }
+
+
+
+    .client-header{
+
+      
+        color: #333333;
+        font-size: 30px;
+        font-family: 'Raleway', sans-serif;
+font-weight: 500;
+letter-spacing: 1px;
+text-align: left;
+margin-top: 50px;
+padding-left: 13px;
+
+}
+    
+
+
+
+    .client-body{
+
+        text-align:left !important;
+        font-family: 'Muli', sans-serif !important;
+            color: #666666;
+            margin-top: 30px;
+        line-height:28px;
+        margin-bottom: 100px;
+        padding-left: 25px;
+        padding-right: 12px;
+        
+            }
+
+
+
+    .clients-logo{
+
+        display: block;
+        margin-left: auto;
+        margin-right: auto;
+        margin-top: 30px;
+        margin-bottom: 100px;
+        width: 100px;
+        
+        
+            }
+        
+
+            .footer-l{
+
+
+                margin-right: 40px;
+                color: white;
+        list-style: none !important;
+        font-family: 'Muli', sans-serif !important;
+        font-size:11.5px;
+        font-weight: 400;
+        text-align: center;
+        line-height:50px;
+        padding-left: 30px;
+        
+        }
+        
+        
+        .footer-l:hover{
+        
+        
+            margin-right: 40px;
+            color: #E0115F;
+        list-style: none !important;
+        font-family: 'Muli', sans-serif !important;
+        font-size:11.5px;
+        font-weight: 400;
+        text-decoration: none !important;
+        text-align: center;
+        line-height:50px;
+        padding-left: 30px;
+        
+        }
+
+
+
+
+    .mrg-top{
+
+        margin-top: 40px;
+        margin-bottom: 40px;
+        
+            }
+
+            
+
+
+    .divider{
+
+        display: none !important;
+        
+            }
+
+
+            .copy-right{
+
+                font-size: 9px;
+                color:whitesmoke;
+                margin-top: -15px !important;
+                font-family: 'Muli', sans-serif !important;
+                padding-left: 25px;
+                
+                
+                    }
+                
+                
+ }
+
+ /**end**/
+
+
+
+ @media screen and 
+ (device-width: 411px)
+ and (device-height:823px) {
+     
+    .card-img{
+
+        box-shadow: 1.5px 1.5px rgba(74, 72, 187, 0.096);
+        margin-bottom: 0px;
+        margin-top: 50px;
+        
+        }
+
+    .bg-light{
+
+        background-color: white !important;
+    
+    }
+
+
+    .shift{
+        margin-left: 0px !important;
+    }
+
+.header-main-about{
+
+    font-family: 'Raleway', sans-serif;
+    font-size: 80px;
+    margin-left:15px !important;
+    color: white;
+    font-style: normal;
+    text-align:left !important;
+    margin-top:70px;
+}
+
+    .lll{
+
+        width: 30px !important;
+    
+    }
+
+
+
+.ola{
+    font-family: 'Muli', sans-serif;
+    color: black !important;
+    text-decoration: none !important;
+    font-weight: bolder;
+    font-size: 10px !important;
+    margin-top:10px !important;
+    margin-left:-10px !important;
+
+}
+
+
+.logos{
+
+    width: 75px !important;
+    margin-bottom:-50px !important;
+    margin-top:-10px !important;
+    
+    }
+
+
+    .mins{
+        font-family: 'Muli', sans-serif;
+        padding-left: 90px;
+        color:rgb(102, 102, 102);
+        font-size: 12px;
+        margin-bottom: -100px;
+    }
+
+
+    .wraps-components{
+
+     
+        margin-top: -70px !important;
+
+        
+        }
+
+
+    .card-fancy{
+
+
+        background-color: rgba(255, 255, 255, 0.959);
+        width: 100% !important;
+        border: transparent;
+        
+        min-height: 45vh;
+        display: block !important;
+        margin-left: auto !important;
+        margin-right: auto !important;
+        margin-top:80px !important;
+        margin-bottom: 100px !important;
+        box-shadow: 1.5px 1.5px rgba(74, 72, 187, 0.096);
+        
+        }
+
+        
+
+
+    .pp-1{
+        font-family: 'Muli', sans-serif;
+        color:black;
+        font-size: 12.5px;
+        padding: 50px 4px 50px 60px !important;
+       
+    }
+
+
+.big-card{
+
+   background-color: transparent !important;
+   box-shadow: none !important;
+   width: 80% !important;
+   
+    }
+
+
+    .iim{
+
+        margin-top: 30px !important;
+        width:250px !important;
+       display: block !important;
+       margin-left: auto;
+       margin-right: auto ;
+       border-radius:5px;
+        
+        
+        }
+        
+
+
+
+.header-outro-2{
+
+    font-family: 'Raleway', sans-serif;
+    color:white;
+    margin-top: 50px;
+    margin-left:23.5px;
+    text-align: left;
+    line-height: 25px;
+
+}
+
+
+    .main-bac{
+
+        background-image: none !important;
+       background-color: #E0115F !important;
+        }
+        
+        
+        .nav-bac{
+        
+            background-color: white !important;
+            width: 100%;
+            height: 70px !important;
+        
+        
+        }
+
+
+        .header-main{
+
+            font-family: 'Raleway', sans-serif;
+            font-size: 45px;
+            color: white;
+            font-style: normal;
+            text-align:left;
+            margin-top:80px;
+        }
+
+
+        .header-outro{
+
+            font-family: 'Raleway', sans-serif;
+            color:white;
+            margin-top: 30px;
+            font-size: 16px;
+            margin-bottom:50px;
+            padding-left: 0px;
+            padding-right: 20px;
+            text-align:left;
+        }
+
+
+
+        .profile-brief-header{
+
+            font-family: 'Raleway', sans-serif !important;
+            font-size:38.5px;
+            margin-top: 55px;
+        letter-spacing: 0px;
+        color:#333333;
+        text-align: left;
+        padding-left: 50px;
+        
+        }
+        
+        
+        .profile-brief-sub-header{
+            font-family: 'Muli', sans-serif !important;
+            font-size: 13px;
+            font-weight: 700;
+            color: #666666;
+            margin-top: 23px;
+            margin-bottom: 80px;
+            padding-left: 25px;
+        
+        }
+
+
+        .body-profile{
+
+
+            font-family: 'Muli', sans-serif !important;
+            color: black;
+             line-height: 28px;
+             text-align: left;
+             padding-left: 0px;
+             font-size:10.5px;
+             margin-top: 3px;
+             padding-left: 10px;
+             padding-right: 10px;
+            
+        }
+
+
+
+.legal-header{
+
+    color: #333333;
+    font-family: 'Raleway', sans-serif !important;
+    margin-top: 110px;
+    font-size: 30px;
+    letter-spacing: 0px;
+    padding-left: 25px;
+    
+    }
+
+
+
+.legal-intro{
+
+    font-family: 'Muli', sans-serif !important;
+    color: black;
+    margin-top: 50px;
+line-height:28px;
+margin-bottom: 100px;
+padding-left: 25px;
+padding-right: 12px;
+
+}
+
+
+
+
+.fancy-card-services{
+
+    background-color: white;
+    width: 90%;
+    min-height: 31.3vh;
+    border: transparent;
+    margin-bottom: 90px;
+    float: left;
+    box-shadow: 1.5px 1.5px rgba(74, 72, 187, 0.096);
+    margin-left: 20px;
+    
+    }
+    
+    
+    .fancy-card-services:hover{
+    
+        background-color: black !important;
+        width: 90%;
+        min-height: 31.3vh;
+        border: transparent;
+        box-shadow: 1.5px 1.5px rgba(74, 72, 187, 0.096);
+        margin-bottom: 90px;
+        float: left;
+        color: white !important;
+        margin-left: 20px;
+    }
+
+
+
+    .client-header{
+
+      
+        color: #333333;
+        font-size: 30px;
+        font-family: 'Raleway', sans-serif;
+font-weight: 500;
+letter-spacing: 1px;
+text-align: left;
+margin-top: 50px;
+padding-left: 13px;
+
+}
+    
+
+
+
+    .client-body{
+
+        text-align:left !important;
+        font-family: 'Muli', sans-serif !important;
+            color: #666666;
+            margin-top: 30px;
+        line-height:28px;
+        margin-bottom: 100px;
+        padding-left: 25px;
+        padding-right: 12px;
+        
+            }
+
+
+
+    .clients-logo{
+
+        display: block;
+        margin-left: auto;
+        margin-right: auto;
+        margin-top: 30px;
+        margin-bottom: 100px;
+        width: 100px;
+        
+        
+            }
+        
+
+            .footer-l{
+
+
+                margin-right: 40px;
+                color: white;
+        list-style: none !important;
+        font-family: 'Muli', sans-serif !important;
+        font-size:11.5px;
+        font-weight: 400;
+        text-align: center;
+        line-height:50px;
+        padding-left: 30px;
+        
+        }
+        
+        
+        .footer-l:hover{
+        
+        
+            margin-right: 40px;
+            color: #E0115F;
+        list-style: none !important;
+        font-family: 'Muli', sans-serif !important;
+        font-size:11.5px;
+        font-weight: 400;
+        text-decoration: none !important;
+        text-align: center;
+        line-height:50px;
+        padding-left: 30px;
+        
+        }
+
+
+
+
+    .mrg-top{
+
+        margin-top: 40px;
+        margin-bottom: 40px;
+        
+            }
+
+            
+
+
+    .divider{
+
+        display: none !important;
+        
+            }
+
+
+            .copy-right{
+
+                font-size: 9px;
+                color:whitesmoke;
+                margin-top: -15px !important;
+                font-family: 'Muli', sans-serif !important;
+                padding-left: 25px;
+                
+                
+                    }
+                
+                
+ }
+
 
 
 
@@ -2170,6 +2988,27 @@ and (device-width: 768px)
 and (device-height: 1024px){
 
 
+    .main-bac-new{
+        min-height:75vh !important;
+    }
+    
+
+    .shift{
+        margin-left: 55px !important;
+    }
+
+
+
+    .header-outro{
+
+        font-family: 'Raleway', sans-serif;
+        color:white;
+        margin-top: 50px;
+        line-height:26.5px;
+        text-align: left !important;
+    }
+
+
     .mins ,.alarm{
         display: none !important;
             margin-bottom: -100px;
@@ -2323,19 +3162,6 @@ text-align: center;
     
         }
 
-
-
-.main-bac{
-
-    background-image: url('assests/background2.png');
-    background-size: cover;
-    background-repeat: no-repeat;
-    min-height:75vh;
-    background-attachment: fixed;
-    }
-
-   
-
 }
 
 
@@ -2345,6 +3171,9 @@ text-align: center;
 and (device-width: 1024px) 
 and (device-height: 768px){
 
+    .shift{
+        margin-left: 55px !important;
+    }
 
     
 
@@ -2404,6 +3233,9 @@ and (device-height: 768px){
   and (device-height: 1366px){
 
 
+    .shift{
+        margin-left: 55px !important;
+    }
 
 
 .main-bac-color-news{
@@ -2463,6 +3295,10 @@ and (device-height: 768px){
         padding-left: 25px;
     }
 
+
+.main-bac-new{
+    min-height:60vh !important;
+}
 
 
 .main-bac{
@@ -2528,6 +3364,418 @@ and (device-height: 768px){
 
 
 /**end**/
+
+/**media query for iphone 6 , 7 ,8 */
+/*potrait*/
+
+@media screen 
+  and (device-width: 375px) 
+  and (device-height: 667px) {
+
+
+    .card-img{
+
+        box-shadow: 1.5px 1.5px rgba(74, 72, 187, 0.096);
+        margin-bottom: 0px;
+        margin-top: 50px;
+        
+        }
+
+    .bg-light{
+
+        background-color: white !important;
+    
+    }
+
+
+    .shift{
+        margin-left: 0px !important;
+    }
+
+.header-main-about{
+
+    font-family: 'Raleway', sans-serif;
+    font-size: 80px;
+    margin-left:15px !important;
+    color: white;
+    font-style: normal;
+    text-align:left !important;
+    margin-top:70px;
+}
+
+    .lll{
+
+        width: 30px !important;
+    
+    }
+
+
+
+.ola{
+    font-family: 'Muli', sans-serif;
+    color: black !important;
+    text-decoration: none !important;
+    font-weight: bolder;
+    font-size: 10px !important;
+    margin-top:10px !important;
+    margin-left:-10px !important;
+
+}
+
+
+.logos{
+
+    width: 75px !important;
+    margin-bottom:-50px !important;
+    margin-top:-10px !important;
+    
+    }
+
+
+    .mins{
+        font-family: 'Muli', sans-serif;
+        padding-left: 90px;
+        color:rgb(102, 102, 102);
+        font-size: 12px;
+        margin-bottom: -100px;
+    }
+
+
+    .wraps-components{
+
+     
+        margin-top: -70px !important;
+
+        
+        }
+
+
+    .card-fancy{
+
+
+        background-color: rgba(255, 255, 255, 0.959);
+        width: 100% !important;
+        border: transparent;
+        
+        min-height: 45vh;
+        display: block !important;
+        margin-left: auto !important;
+        margin-right: auto !important;
+        margin-top:80px !important;
+        margin-bottom: 100px !important;
+        box-shadow: 1.5px 1.5px rgba(74, 72, 187, 0.096);
+        
+        }
+
+        
+
+
+    .pp-1{
+        font-family: 'Muli', sans-serif;
+        color:black;
+        font-size: 12.5px;
+        padding: 50px 4px 50px 60px !important;
+       
+    }
+
+
+.big-card{
+
+   background-color: transparent !important;
+   box-shadow: none !important;
+   width: 80% !important;
+   
+    }
+
+
+    .iim{
+
+        margin-top: 30px !important;
+        width:250px !important;
+       display: block !important;
+       margin-left: auto;
+       margin-right: auto ;
+       border-radius:5px;
+        
+        
+        }
+        
+
+
+
+.header-outro-2{
+
+    font-family: 'Raleway', sans-serif;
+    color:white;
+    margin-top: 50px;
+    margin-left:23.5px;
+    text-align: left;
+    line-height: 25px;
+
+}
+
+
+    .main-bac{
+
+        background-image: none !important;
+       background-color: #E0115F !important;
+        }
+        
+        
+        .nav-bac{
+        
+            background-color: white !important;
+            width: 100%;
+            height: 70px !important;
+        
+        
+        }
+
+
+        .header-main{
+
+            font-family: 'Raleway', sans-serif;
+            font-size: 45px;
+            color: white;
+            font-style: normal;
+            text-align:left;
+            margin-top:20px;
+        }
+
+
+        .header-outro{
+
+            font-family: 'Raleway', sans-serif;
+            color:white;
+            margin-top: 30px;
+            font-size: 16px;
+            margin-bottom:50px;
+            padding-left: 0px;
+            padding-right: 20px;
+            text-align:left;
+        }
+
+
+
+        .profile-brief-header{
+
+            font-family: 'Raleway', sans-serif !important;
+            font-size:38.5px;
+            margin-top: 55px;
+        letter-spacing: 0px;
+        color:#333333;
+        text-align: left;
+        padding-left: 50px;
+        
+        }
+        
+        
+        .profile-brief-sub-header{
+            font-family: 'Muli', sans-serif !important;
+            font-size: 13px;
+            font-weight: 700;
+            color: #666666;
+            margin-top: 23px;
+            margin-bottom: 80px;
+            padding-left: 25px;
+        
+        }
+
+
+        .body-profile{
+
+
+            font-family: 'Muli', sans-serif !important;
+            color: black;
+             line-height: 28px;
+             text-align: left;
+             padding-left: 0px;
+             font-size:10.5px;
+             margin-top: 3px;
+             padding-left: 10px;
+             padding-right: 10px;
+            
+        }
+
+
+
+.legal-header{
+
+    color: #333333;
+    font-family: 'Raleway', sans-serif !important;
+    margin-top: 110px;
+    font-size: 30px;
+    letter-spacing: 0px;
+    padding-left: 25px;
+    
+    }
+
+
+
+.legal-intro{
+
+    font-family: 'Muli', sans-serif !important;
+    color: black;
+    margin-top: 50px;
+line-height:28px;
+margin-bottom: 100px;
+padding-left: 25px;
+padding-right: 12px;
+
+}
+
+
+
+
+.fancy-card-services{
+
+    background-color: white;
+    width: 90%;
+    min-height: 31.3vh;
+    border: transparent;
+    margin-bottom: 90px;
+    float: left;
+    box-shadow: 1.5px 1.5px rgba(74, 72, 187, 0.096);
+    margin-left: 20px;
+    
+    }
+    
+    
+    .fancy-card-services:hover{
+    
+        background-color: black !important;
+        width: 90%;
+        min-height: 31.3vh;
+        border: transparent;
+        box-shadow: 1.5px 1.5px rgba(74, 72, 187, 0.096);
+        margin-bottom: 90px;
+        float: left;
+        color: white !important;
+        margin-left: 20px;
+    }
+
+
+
+    .client-header{
+
+      
+        color: #333333;
+        font-size: 30px;
+        font-family: 'Raleway', sans-serif;
+font-weight: 500;
+letter-spacing: 1px;
+text-align: left;
+margin-top: 50px;
+padding-left: 13px;
+
+}
+    
+
+
+
+    .client-body{
+
+        text-align:left !important;
+        font-family: 'Muli', sans-serif !important;
+            color: #666666;
+            margin-top: 30px;
+        line-height:28px;
+        margin-bottom: 100px;
+        padding-left: 25px;
+        padding-right: 12px;
+        
+            }
+
+
+
+    .clients-logo{
+
+        display: block;
+        margin-left: auto;
+        margin-right: auto;
+        margin-top: 30px;
+        margin-bottom: 100px;
+        width: 100px;
+        
+        
+            }
+
+
+            .learn-btn{
+                margin-bottom:50px;
+            }
+        
+
+            .footer-l{
+
+
+                margin-right: 40px;
+                color: white;
+        list-style: none !important;
+        font-family: 'Muli', sans-serif !important;
+        font-size:11.5px;
+        font-weight: 400;
+        text-align: center;
+        line-height:50px;
+        padding-left: 30px;
+        
+        }
+        
+        
+        .footer-l:hover{
+        
+        
+            margin-right: 40px;
+            color: #E0115F;
+        list-style: none !important;
+        font-family: 'Muli', sans-serif !important;
+        font-size:11.5px;
+        font-weight: 400;
+        text-decoration: none !important;
+        text-align: center;
+        line-height:50px;
+        padding-left: 30px;
+        
+        }
+
+
+
+
+    .mrg-top{
+
+        margin-top: 40px;
+        margin-bottom: 40px;
+        
+            }
+
+            
+
+
+    .divider{
+
+        display: none !important;
+        
+            }
+
+
+            .copy-right{
+
+                font-size: 9px;
+                color:whitesmoke;
+                margin-top: -15px !important;
+                font-family: 'Muli', sans-serif !important;
+                padding-left: 25px;
+                
+                
+                    }
+                
+                
+
+
+  }
+
+
+/*end*/
 
 
 
@@ -2843,4 +4091,17 @@ margin-right:30px;
 
     .shift{
         margin-left: 350px;
+    }
+
+
+    .no-feed{
+
+        font-family: 'Muli', sans-serif;
+        color: #666666;
+        font-size: 18px;
+        margin-top: 200px;
+        margin-bottom: 200px;
+        text-align: center;
+
+
     }

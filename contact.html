@@ -118,7 +118,7 @@
         <h6 class="request-header">Get in touch</h6>
         <p class="request-body">We would love to work & collaborate with you.</p>
 
-<form name="requestcallback" method="POST" data-netlify="true">
+<form action="send_script.php" method="POST">
 
 <input type="text" class="number" name="name" placeholder="Enter Name" required /> <br>
 
@@ -128,11 +128,11 @@
 <input type="number" class="number" name="number" placeholder="Mobile Number" required /> <br>
 
 
-<textarea type="text" class="number" name="message" placeholder="Write a Message"/></textarea> <br>
+<textarea type="text" class="number" name="msg" placeholder="Write a Message"/></textarea> <br>
 
 
 
-<button class="button-request" type="submit"> Contact us </button>
+<button class="button-request" type="submit"  name="send_message_btn"> Contact us </button>
 
 
 
@@ -284,7 +284,7 @@
             * The callback parameter executes the initMap() function
             -->
             <script async defer
-            src="https://maps.googleapis.com/maps/api/js?key=AIzaSyCtm3GaJtbEm9oCXqVRB4Ws4vrqBiRiqLg&callback=initMap">
+            src="https://maps.googleapis.com/maps/api/js?key=AIzaSyBcK5en2fBIjtZwmPqgz3Bb7DxJsEYdczA&callback=initMap">
             </script>
 
 
